@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semester 1 - EduShare GTU Notes</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-logo">EduShare</div>
+        <ul class="navbar-links">
+            <li><a href="../index.html#home">Home</a></li>
+            <li><a href="../index.html#features">Features</a></li>
+            <li><a href="../index.html#semester">Semester</a></li>
+            <li><a href="../index.html#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section class="section">
+        <h2>Semester 1 & 2</h2>
+        <ul class="semester-points">
+            <li>Foundation courses for all branches covering basic sciences and mathematics.</li>
+            <li>Colleges decide which subjects to offer in each semester based on their curriculum.</li>
+            <li>Core engineering fundamentals and programming introduction.</li>
+        </ul>
+        <div class="subjects-grid">
+            <div class="subject-box">3110018 - Physics</div>
+            <div class="subject-box">3110016 - Basic Electronics</div>
+            <div class="subject-box">3110015 - Mathematics - 2</div>
+            <div class="subject-box">3110014 - Mathematics - 1</div>
+            <div class="subject-box">3110013 - Engineering Graphics & Design</div>
+            <div class="subject-box">3110012 - Workshop/ Manufacturing Practices</div>
+            <div class="subject-box">3110007 - Environmental Sciences</div>
+            <div class="subject-box">3110006 - Basic Mechanical Engineering</div>
+            <div class="subject-box">3110005 - Basic Electrical Engineering</div>
+            <div class="subject-box">3110003 - Programming for Problem Solving</div>
+            <div class="subject-box">3110002 - English</div>
+        </div>
+    </section>
+
+    <!-- Subject Modal -->
+    <div id="subjectModal" class="modal-overlay">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal()">&times;</button>
+            <div class="modal-header">
+                <h3 class="modal-title" id="modalTitle">Subject Name</h3>
+                <p class="modal-subtitle" id="modalSubtitle">Subject Code</p>
+            </div>
+            <div class="modal-features">
+                <div class="modal-feature-item">
+                    <a href="#" id="syllabusLink" target="_blank">📋 Syllabus</a>
+                </div>
+                <div class="modal-feature-item">
+                    <a href="#" id="papersLink" target="_blank">📄 Papers</a>
+                </div>
+                <div class="modal-feature-item">
+                    <a href="#" id="notesLink" target="_blank">📝 Notes</a>
+                </div>
+                <div class="modal-feature-item">
+                    <a href="#" id="youtubeLink" target="_blank">📺 YouTube Playlists</a>
+                </div>
+                <div class="modal-feature-item">
+                    <a href="#" id="solutionsLink" target="_blank">💡 Paper Solutions</a>
+                </div>
+                <div class="modal-feature-item">
+                    <a href="#" id="booksLink" target="_blank">📚 Books</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/semester.js"></script>
+</body>
+
+</html>

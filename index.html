@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduShare GTU Notes</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-logo">EduShare</div>
+        <ul class="navbar-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#semester">Semester</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section id="home" class="section home-section">
+        <h1>Welcome to EduShare</h1>
+        <p>Your one-stop platform for GTU students to access and share notes, papers, solutions, and more for IT, CE,
+            and CSE branches. Simplify your study journey with organized resources for all 8 semesters.</p>
+    </section>
+    <section id="features" class="section features-section">
+        <h2>Features</h2>
+        <div class="features-grid">
+            <div class="feature-box">Syllabus</div>
+            <div class="feature-box">Papers</div>
+            <div class="feature-box">Notes</div>
+            <div class="feature-box">YouTube Playlists</div>
+            <div class="feature-box">Paper Solutions</div>
+            <div class="feature-box">Books</div>
+        </div>
+    </section>
+    <section id="semester" class="section semester-section">
+        <h2>Semesters</h2>
+        <div class="semester-grid">
+            <div class="semester-box" data-sem="1">Semester 1</div>
+            <div class="semester-box" data-sem="2">Semester 2</div>
+            <div class="semester-box" data-sem="3">Semester 3</div>
+            <div class="semester-box" data-sem="4">Semester 4</div>
+            <div class="semester-box" data-sem="5">Semester 5</div>
+            <div class="semester-box" data-sem="6">Semester 6</div>
+            <div class="semester-box" data-sem="7">Semester 7</div>
+            <div class="semester-box" data-sem="8">Semester 8</div>
+        </div>
+    </section>
+    <section id="contact" class="section contact-section">
+        <h2>Contact Us</h2>
+        <form class="contact-form" id="contactForm">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <div id="formMessage"></div>
+    </section>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semester 3 - EduShare GTU Notes</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-logo">EduShare</div>
+        <ul class="navbar-links">
+            <li><a href="../index.html#home">Home</a></li>
+            <li><a href="../index.html#features">Features</a></li>
+            <li><a href="../index.html#semester">Semester</a></li>
+            <li><a href="../index.html#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section class="section">
+        <h2>Semester 3</h2>
+        <ul class="semester-points">
+            <li>Start of branch-specific subjects for IT, CE, and CSE.</li>
+            <li>Emphasis on programming, data structures and digital fundamentals.</li>
+            <li>Introduction to database concepts and communication skills.</li>
+        </ul>
+        <div class="subjects-grid">
+            <div class="subject-box" data-subject="digital-fundamentals">
+                <h3>Digital Fundamentals</h3>
+                <p>3130704</p>
+            </div>
+            <div class="subject-box" data-subject="dbms">
+                <h3>Database Management Systems</h3>
+                <p>3130703</p>
+            </div>
+            <div class="subject-box" data-subject="data-structures">
+                <h3>Data Structures</h3>
+                <p>3130702</p>
+            </div>
+            <div class="subject-box" data-subject="design-engineering">
+                <h3>Design Engineering - I A</h3>
+                <p>3130008</p>
+            </div>
+            <div class="subject-box" data-subject="constitution">
+                <h3>Indian Constitution</h3>
+                <p>3130007</p>
+            </div>
+            <div class="subject-box" data-subject="probability-statistics">
+                <h3>Probability and Statistics</h3>
+                <p>3130006</p>
+            </div>
+            <div class="subject-box" data-subject="technical-communication">
+                <h3>Effective Technical Communication</h3>
+                <p>3130004</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal for subject resources -->
+    <div id="subject-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2 id="modal-title">Subject Name</h2>
+            <p id="modal-code">Subject Code</p>
+            <div class="resource-grid">
+                <a href="#" id="syllabus-link" class="resource-btn" target="_blank">
+                    <span class="resource-icon">📋</span>
+                    <span>Syllabus</span>
+                </a>
+                <a href="#" id="papers-link" class="resource-btn" target="_blank">
+                    <span class="resource-icon">📝</span>
+                    <span>Previous Papers</span>
+                </a>
+                <a href="#" id="notes-link" class="resource-btn" target="_blank">
+                    <span class="resource-icon">📚</span>
+                    <span>Notes</span>
+                </a>
+                <a href="#" id="youtube-link" class="resource-btn" target="_blank">
+                    <span class="resource-icon">🎥</span>
+                    <span>YouTube</span>
+                </a>
+                <a href="#" id="solutions-link" class="resource-btn" target="_blank">
+                    <span class="resource-icon">💡</span>
+                    <span>Solutions</span>
+                </a>
+                <a href="#" id="books-link" class="resource-btn" target="_blank">
+                    <span class="resource-icon">📖</span>
+                    <span>Reference Books</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div id="interactive-bg"></div>
+    <script src="../js/semester.js"></script>
+</body>
+
+</html>

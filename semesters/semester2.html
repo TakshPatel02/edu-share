@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semester 2 - EduShare GTU Notes</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-logo">EduShare</div>
+        <ul class="navbar-links">
+            <li><a href="../index.html#home">Home</a></li>
+            <li><a href="../index.html#features">Features</a></li>
+            <li><a href="../index.html#semester">Semester</a></li>
+            <li><a href="../index.html#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section class="section">
+        <h2>Semester 1 & 2</h2>
+        <ul class="semester-points">
+            <li>Foundation courses for all branches covering basic sciences and mathematics.</li>
+            <li>Colleges decide which subjects to offer in each semester based on their curriculum.</li>
+            <li>Core engineering fundamentals and programming introduction.</li>
+        </ul>
+        <div class="subjects-grid">
+            <div class="subject-box" data-subject="physics">
+                <h3>Physics</h3>
+                <p>3110018</p>
+            </div>
+            <div class="subject-box" data-subject="basic-electronics">
+                <h3>Basic Electronics</h3>
+                <p>3110016</p>
+            </div>
+            <div class="subject-box" data-subject="mathematics-2">
+                <h3>Mathematics - 2</h3>
+                <p>3110015</p>
+            </div>
+            <div class="subject-box" data-subject="mathematics-1">
+                <h3>Mathematics - 1</h3>
+                <p>3110014</p>
+            </div>
+            <div class="subject-box" data-subject="graphics">
+                <h3>Engineering Graphics & Design</h3>
+                <p>3110013</p>
+            </div>
+            <div class="subject-box" data-subject="workshop">
+                <h3>Workshop/ Manufacturing Practices</h3>
+                <p>3110012</p>
+            </div>
+            <div class="subject-box" data-subject="environmental">
+                <h3>Environmental Sciences</h3>
+                <p>3110007</p>
+            </div>
+            <div class="subject-box" data-subject="mechanical">
+                <h3>Basic Mechanical Engineering</h3>
+                <p>3110006</p>
+            </div>
+            <div class="subject-box" data-subject="electrical">
+                <h3>Basic Electrical Engineering</h3>
+                <p>3110005</p>
+            </div>
+            <div class="subject-box" data-subject="programming">
+                <h3>Programming for Problem Solving</h3>
+                <p>3110003</p>
+            </div>
+            <div class="subject-box" data-subject="english">
+                <h3>English</h3>
+                <p>3110002</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal for subject resources -->
+    <div id="subject-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2 id="modal-title">Subject Name</h2>
+            <p id="modal-code">Subject Code</p>
+            <div class="resource-grid">
+                <a href="#" id="syllabus-link" class="resource-btn" target="_blank">
+                    <span class="resource-icon">📋</span>
+                    <span>Syllabus</span>
+                </a>
+                <a href="#" id="papers-link" class="resource-btn" target="_blank">
+                    <span class="resource-icon">📝</span>
+                    <span>Previous Papers</span>
+                </a>
+                <a href="#" id="notes-link" class="resource-btn" target="_blank">
+                    <span class="resource-icon">📚</span>
+                    <span>Notes</span>
+                </a>
+                <a href="#" id="youtube-link" class="resource-btn" target="_blank">
+                    <span class="resource-icon">🎥</span>
+                    <span>YouTube</span>
+                </a>
+                <a href="#" id="solutions-link" class="resource-btn" target="_blank">
+                    <span class="resource-icon">💡</span>
+                    <span>Solutions</span>
+                </a>
+                <a href="#" id="books-link" class="resource-btn" target="_blank">
+                    <span class="resource-icon">📖</span>
+                    <span>Reference Books</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div id="interactive-bg"></div>
+    <script src="../js/semester.js"></script>
+</body>
+
+</html>

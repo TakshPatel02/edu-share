@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semester 4 - EduShare GTU Notes</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-logo">EduShare</div>
+        <ul class="navbar-links">
+            <li><a href="../index.html#home">Home</a></li>
+            <li><a href="../index.html#features">Features</a></li>
+            <li><a href="../index.html#semester">Semester</a></li>
+            <li><a href="../index.html#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section class="section">
+        <h2>Semester 4</h2>
+        <ul class="semester-points">
+            <li>Advanced core subjects in operating systems and computer architecture.</li>
+            <li>Introduction to object-oriented programming and discrete mathematics.</li>
+            <li>Focus on economics, management and design engineering concepts.</li>
+        </ul>
+        <div class="subjects-grid">
+            <div class="subject-box" data-subject="operating-systems">
+                <h3>Operating System and Virtualization</h3>
+                <p>3141601</p>
+            </div>
+            <div class="subject-box" data-subject="economics-management">
+                <h3>Principles of Economics and Management</h3>
+                <p>3140709</p>
+            </div>
+            <div class="subject-box" data-subject="discrete-mathematics">
+                <h3>Discrete Mathematics</h3>
+                <p>3140708</p>
+            </div>
+            <div class="subject-box" data-subject="computer-architecture">
+                <h3>Computer Organization & Architecture</h3>
+                <p>3140707</p>
+            </div>
+            <div class="subject-box" data-subject="oop-1">
+                <h3>Object Oriented Programming -I</h3>
+                <p>3140705</p>
+            </div>
+            <div class="subject-box" data-subject="design-engineering-1b">
+                <h3>Design Engineering 1 B</h3>
+                <p>3140005</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal for subject resources -->
+    <div id="subject-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2 id="modal-title">Subject Name</h2>
+            <p id="modal-code">Subject Code</p>
+            <div class="resource-grid">
+                <a href="#" id="syllabus-link" class="resource-btn" target="_blank">
+                    <span class="resource-icon">📋</span>
+                    <span>Syllabus</span>
+                </a>
+                <a href="#" id="papers-link" class="resource-btn" target="_blank">
+                    <span class="resource-icon">📝</span>
+                    <span>Previous Papers</span>
+                </a>
+                <a href="#" id="notes-link" class="resource-btn" target="_blank">
+                    <span class="resource-icon">📚</span>
+                    <span>Notes</span>
+                </a>
+                <a href="#" id="youtube-link" class="resource-btn" target="_blank">
+                    <span class="resource-icon">🎥</span>
+                    <span>YouTube</span>
+                </a>
+                <a href="#" id="solutions-link" class="resource-btn" target="_blank">
+                    <span class="resource-icon">💡</span>
+                    <span>Solutions</span>
+                </a>
+                <a href="#" id="books-link" class="resource-btn" target="_blank">
+                    <span class="resource-icon">📖</span>
+                    <span>Reference Books</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div id="interactive-bg"></div>
+    <script src="../js/semester.js"></script>
+</body>
+
+</html>
