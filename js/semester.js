@@ -79,14 +79,14 @@ const subjectLinks = {
     'design-engineering-1b': { syllabus: '', papers: '', notes: '', youtube: '', solutions: '', books: '' },
 
     // Semester 5 subjects
-    'data-science': { syllabus: '', papers: '', notes: '', youtube: '', solutions: '', books: '' },
-    'web-development': { syllabus: '', papers: '', notes: '', youtube: '', solutions: '', books: '' },
-    'algorithms': { syllabus: '', papers: '', notes: '', youtube: '', solutions: '', books: '' },
-    'cyber-security': { syllabus: '', papers: '', notes: '', youtube: '', solutions: '', books: '' },
-    'computer-networks': { syllabus: '', papers: '', notes: '', youtube: '', solutions: '', books: '' },
-    'professional-ethics': { syllabus: '', papers: '', notes: '', youtube: '', solutions: '', books: '' },
-    'personality-development': { syllabus: '', papers: '', notes: '', youtube: '', solutions: '', books: '' },
-    'design-engineering-2a': { syllabus: '', papers: '', notes: '', youtube: '', solutions: '', books: '' },
+    'data-science': { syllabus: 'https://drive.google.com/file/d/1PA5bT5HvaZ1xm3C54y3eO7JNVHMjM8gL/view?usp=sharing', papers: '', notes: '', youtube: '', solutions: '', books: '' },
+    'web-development': { syllabus: 'https://drive.google.com/file/d/1h_LpPrgJJRez2UWsEEVSOfZhxW4IuHtv/view?usp=sharing', papers: '', notes: '', youtube: '', solutions: '', books: '' },
+    'algorithms': { syllabus: 'https://drive.google.com/file/d/1xUgt8uTQVpqT22u9TPxw1qADwrTafgYJ/view?usp=sharing', papers: '', notes: '', youtube: '', solutions: '', books: '' },
+    'cyber-security': { syllabus: 'https://drive.google.com/file/d/1BMAl2rnPMNfcTwVJRy3sWyu2omZm00Yw/view?usp=sharing', papers: '', notes: '', youtube: '', solutions: '', books: '' },
+    'computer-networks': { syllabus: 'https://drive.google.com/file/d/1YlOVN9SVay3uITs8rB2g8Hb9vS5QPbjf/view?usp=sharing', papers: '', notes: '', youtube: '', solutions: '', books: '' },
+    'professional-ethics': { syllabus: 'https://drive.google.com/file/d/1BPcSXv_zSTi-hfPxGKImFhcsRpcgN2Xg/view?usp=sharing', papers: '', notes: '', youtube: '', solutions: '', books: '' },
+    'personality-development': { syllabus: 'https://drive.google.com/file/d/1Rh3g6Zn6C_lojbZMHNsUBKpIbJFh7Mxe/view?usp=sharing', papers: '', notes: '', youtube: '', solutions: '', books: '' },
+    'design-engineering-2a': { syllabus: 'https://drive.google.com/file/d/1yoBi4Z6fPeus_43hcwYIpXKa5eHii0KG/view?usp=sharing', papers: '', notes: '', youtube: '', solutions: '', books: '' },
 
     // Semester 6 subjects
     'data-visualization': { syllabus: '', papers: '', notes: '', youtube: '', solutions: '', books: '' },
