@@ -79,13 +79,20 @@ const subjectLinks = {
     'design-engineering-1b': { syllabus: '', papers: '', notes: '', youtube: '', solutions: '', books: '' },
 
     // Semester 5 subjects
-    'data-science': { syllabus: 'https://drive.google.com/file/d/1PA5bT5HvaZ1xm3C54y3eO7JNVHMjM8gL/view?usp=sharing', papers: '', notes: '', youtube: '', solutions: '', books: '' },
-    'web-development': { syllabus: 'https://drive.google.com/file/d/1h_LpPrgJJRez2UWsEEVSOfZhxW4IuHtv/view?usp=sharing', papers: '', notes: '', youtube: '', solutions: '', books: '' },
-    'algorithms': { syllabus: 'https://drive.google.com/file/d/1xUgt8uTQVpqT22u9TPxw1qADwrTafgYJ/view?usp=sharing', papers: '', notes: '', youtube: '', solutions: '', books: '' },
-    'cyber-security': { syllabus: 'https://drive.google.com/file/d/1BMAl2rnPMNfcTwVJRy3sWyu2omZm00Yw/view?usp=sharing', papers: '', notes: '', youtube: '', solutions: '', books: '' },
-    'computer-networks': { syllabus: 'https://drive.google.com/file/d/1YlOVN9SVay3uITs8rB2g8Hb9vS5QPbjf/view?usp=sharing', papers: '', notes: '', youtube: '', solutions: '', books: '' },
-    'professional-ethics': { syllabus: 'https://drive.google.com/file/d/1BPcSXv_zSTi-hfPxGKImFhcsRpcgN2Xg/view?usp=sharing', papers: '', notes: '', youtube: '', solutions: '', books: '' },
-    'personality-development': { syllabus: 'https://drive.google.com/file/d/1Rh3g6Zn6C_lojbZMHNsUBKpIbJFh7Mxe/view?usp=sharing', papers: '', notes: '', youtube: '', solutions: '', books: '' },
+    'data-science': { syllabus: 'https://drive.google.com/file/d/1PA5bT5HvaZ1xm3C54y3eO7JNVHMjM8gL/view?usp=sharing', papers: 'https://drive.google.com/file/d/1pgZm7NmRdvovEW1yH6YjtW-LTUm_1ZK7/view?usp=sharing', notes: '', youtube: '', solutions: '', books: '' },
+
+    'web-development': { syllabus: 'https://drive.google.com/file/d/1h_LpPrgJJRez2UWsEEVSOfZhxW4IuHtv/view?usp=sharing', papers: 'https://drive.google.com/file/d/16HrjarW0RWVsJ8Rp9T9m7GLhcwKVlrvF/view?usp=sharing', notes: 'https://www.darshan.ac.in/gtu-study-material/3160713-WEB-Programming', youtube: 'https://youtube.com/playlist?list=PLvLlz8rs7VR3zwPVUM2R5H_jefny6k3zs&si=ot5YSJGEvUWfeqle', solutions: '', books: '' },
+
+    'algorithms': { syllabus: 'https://drive.google.com/file/d/1xUgt8uTQVpqT22u9TPxw1qADwrTafgYJ/view?usp=sharing', papers: 'https://drive.google.com/file/d/1DL5cRfNSuQVHxviyO_uoSOBu8PuTg03O/view?usp=sharing', notes: 'https://www.darshan.ac.in/gtu-study-material/3150703-Analysis-And-Design-Of-Algorithms', youtube: 'https://youtube.com/playlist?list=PLNiD0MJqUzyFIs5vdYut37LJao0R5DGHV&si=H-f5-nqx807Qbokt', solutions: '', books: '' },
+
+    'cyber-security': { syllabus: 'https://drive.google.com/file/d/1BMAl2rnPMNfcTwVJRy3sWyu2omZm00Yw/view?usp=sharing', papers: 'https://drive.google.com/file/d/1kZj2HmbHYDJZS6wJ46dM4Z11eA-5Lzno/view?usp=sharing', notes: 'https://www.darshan.ac.in/gtu-study-material/3150714-Cyber-Security', youtube: '', solutions: '', books: '' },
+
+    'computer-networks': { syllabus: 'https://drive.google.com/file/d/1YlOVN9SVay3uITs8rB2g8Hb9vS5QPbjf/view?usp=sharing', papers: 'https://drive.google.com/file/d/1TByweswBFbXAFWOiZQDN6IvYHEvOpqhz/view?usp=sharing', notes: 'https://www.darshan.ac.in/gtu-study-material/3150710-Computer-Networks', youtube: 'https://youtube.com/playlist?list=PLNiD0MJqUzyEYRI_xyCcdnK3GKoE2DmfE&si=0urEFH9gBonaYT4t', solutions: '', books: '' },
+
+    'professional-ethics': { syllabus: 'https://drive.google.com/file/d/1BPcSXv_zSTi-hfPxGKImFhcsRpcgN2Xg/view?usp=sharing', papers: 'https://drive.google.com/file/d/1YHAZ_FtN2C7n8C38HG7vhya6A5YEbfKa/view?usp=sharing', notes: 'https://www.darshan.ac.in/gtu-study-material/3150709-Professional-Ethics', youtube: '', solutions: '', books: '' },
+
+    'personality-development': { syllabus: 'https://drive.google.com/file/d/1Rh3g6Zn6C_lojbZMHNsUBKpIbJFh7Mxe/view?usp=sharing', papers: 'https://drive.google.com/file/d/1cuiOpPnVMHp5G5S4KSQIEeS6otPni9T1/view?usp=sharing', notes: '', youtube: 'https://youtube.com/playlist?list=PLNiD0MJqUzyErSGrIvFW_CHfQ3DMpQqPI&si=9lf86XKX5xssHL3e', solutions: '', books: '' },
+
     'design-engineering-2a': { syllabus: 'https://drive.google.com/file/d/1yoBi4Z6fPeus_43hcwYIpXKa5eHii0KG/view?usp=sharing', papers: '', notes: '', youtube: '', solutions: '', books: '' },
 
     // Semester 6 subjects
